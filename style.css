@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+nav li {
+    list-style-type: none;
+}
+
 .section1, .section2, .section3, .section4 {
     width: 100%;
     height: 100vh;
@@ -18,6 +31,7 @@
 
 .section2{
     background-image: url(images/sunlight-leaves.jpeg);
+    background-attachment: fixed;
 }
 
 .section3{
@@ -26,4 +40,5 @@
 
 .section4{
     background-image: url(images/flower.jpeg);
+    background-attachment: fixed;
 }
