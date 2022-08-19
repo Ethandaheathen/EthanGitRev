@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: rgb(24, 114, 65);
+    position: fixed;
+    width: 100%;
+}
+
 nav ul {
     width: 100%;
     display: flex;
@@ -13,8 +19,15 @@ nav ul {
     
 }
 
+nav a {
+    color: lightskyblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 nav li {
     list-style-type: none;
+    margin: 20px;
 }
 
 .section1, .section2, .section3, .section4 {
@@ -41,4 +54,14 @@ nav li {
 .section4{
     background-image: url(images/flower.jpeg);
     background-attachment: fixed;
+}
+
+.header {
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 70px;
+    text-align: center;
+    width: 40%;
+    padding: 20px 0 20px 0;
 }
