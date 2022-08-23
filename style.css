@@ -84,3 +84,62 @@ nav li {
     border: 2px solid lightseagreen;
     border-radius: 5px;
 }
+
+.paragraph {
+    font-size: 22px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    color: whitesmoke;
+    position: relative;
+    top: 50px;
+    left: 10%;
+    background-color: rgba(153, 205, 50, 0.438);
+    border: 2px solid whitesmoke;
+}
+
+#p2 {
+    color: yellowgreen;
+    background-color: rgba(245, 245, 245, 0.438);
+    border: 2px solid yellowgreen;
+    position: relative;
+    top: 300px;
+    left: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .header {
+        width: 80%;
+    }
+
+    #p1 {
+        width: 80%;
+    }
+
+    #p2 {
+        width: 80%;
+        left: 15%;
+    }
+}
