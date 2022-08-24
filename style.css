@@ -48,10 +48,6 @@ nav li {
     background-attachment: fixed;
 }
 
-.section3{
-    background-image: url(images/sect3bg.png);
-}
-
 .section4{
     background-image: url(images/flower.jpeg);
     background-attachment: fixed;
@@ -110,7 +106,13 @@ nav li {
 }
 
 
-
+.section3{
+    background-image: url(images/sect3bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
