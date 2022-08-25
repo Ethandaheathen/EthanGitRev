@@ -114,6 +114,54 @@ nav li {
     flex-direction: column;
 }
 
+.section3 h1 {
+    text-align: center;
+    color: darkturquoise;
+}
+
+.section3 p {
+    margin: 20px;
+    font-size: 22px;
+    color:darkturquoise;
+}
+
+.section3 input {
+    height: 30px;
+    border-color: transparent;
+    color: darkturquoise;
+}
+
+/*.section3input:focus {
+    outline: 2px solid darkturquoise;
+
+}
+*/
+
+.section3 input::placeholder {
+    text-align: center;
+    color: rgb(133, 226, 228);
+    font-style: italic;
+}
+
+#button {
+    color: #fff;
+    background-color: darkturquoise;
+    font-size: 18px;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
