@@ -6,10 +6,10 @@ function getData() {
     var adverb = document.getElementById("adverb").value;    
 
 
-    document.getElementById("sentence").innerHTML = sentences(verb, adverb, person, ajd, place);
+    document.getElementById("sentence").innerHTML = sentences(verb, adverb, person, adj, place);
 }
 
-function sentences(place, person, verb, adj, adverb) {
+function sentences(verb, adverb, person, adj, place) {
     sentenceArray = [`Today I had to ${verb} ${adverb}. But right in the middle of it, ${person} came with this ${adj} book and wanted to go to ${place}.`, `${person} was in ${place} trying to ${verb}. However, ${person} left a ${adj} shirt, while crying ${adverb}.`, `It's been a long time since ${person} decided to ${verb} in ${place}. What some people said was that ${person} screamed "This straberry is ${adj}!!" We thought ${person} went crazy!`]
 
     ranN = Math.floor(Math.random() * sentenceArray.length)
