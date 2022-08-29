@@ -48,11 +48,6 @@ nav li {
     background-attachment: fixed;
 }
 
-.section4{
-    background-image: url(images/flower.jpeg);
-    background-attachment: fixed;
-}
-
 .header {
     background-color: rgba(32, 178, 171, 0.322);
     color: white;
@@ -150,6 +145,51 @@ nav li {
 #sentence {
     width: 60%;
 }
+
+.section4{
+    background-image: url(images/sect4bg.png);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4 h1 {
+    color: #fff;
+    position: relative;
+    top: -110px;
+}
+
+#letter {
+    position: relative;
+    top: -50px;
+    width: 80px;
+    padding: 20px;
+    font-size: 20px;
+    color: darkturquoise;
+    text-align: center;
+}
+
+#letter:focus {
+    outline: 2px solid darkturquoise;
+}
+
+#submit {
+    position: relative;
+    top: -30px;
+    
+
+}
+
+
 
 
 
