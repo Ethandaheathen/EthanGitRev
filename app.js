@@ -16,3 +16,12 @@ function sentences(verb, adverb, person, adj, place) {
 return sentenceArray[ranN]
 }
 
+
+var a = [1, 2, 4, 9]
+
+
+var arr = {
+    word: "dog"
+    hint: "Company you keep at home"
+},
+

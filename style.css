@@ -185,17 +185,42 @@ nav li {
 #submit {
     position: relative;
     top: -30px;
-    
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: #fff;
+    color: darkturquoise;
+    cursor: pointer;
+}
+
+.grid {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
 
 }
 
+#word {
+    font-size: 35px;
 
+}
 
+#hint {
+    position: relative;
+    top: -70px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
 
+}
 
-
-
-
+.section4 h4 {
+    color: rgb(185, 95, 185);
+    font-size: 20px;
+}
 
 
 
